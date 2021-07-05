@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html>
+<title>VS university</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.title h4{
+margin-top:0x;
+margin-left:120px;
+ background-color:light blue;
+ font-size:42px;
+ 
+}
+
+</style> 
+<style>
+
+
+body {
+  margin: 30px;
+  margin-top:0px;
+  height:800px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.clg{
+height:120px;
+width:120px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.clg1{
+height:140px;
+width:140px;
+	position: absolute;
+	top: 0;
+	right: 0%;
+
+}
+
+.topnav a.active {
+  background-color: #ff6a14;
+  color: white;
+}
+
+
+  ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 5px;
+  overflow: hidden;
+   background-color: #000000;
+}
+  
+  li {
+  float: left;
+}
+
+li a, .dropbtn {
+font-size:20px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+ padding: 16px 18px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+ background-color: #688dfc;
+}
+
+li.dropdown {
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #688dfc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<div class="clg">
+ <img src="images/clg.jpg" style="width:100%">
+ </div>
+ <div class="clg1">
+ <img src="images/clg1.jpg" style="width:100%">
+ </div>
+<div class="title">
+<h4>V&S COLLEGE OF SCIENCE & TECHNOLOGY</h4>
+</div>
+<ul>
+
+<div class="topnav">
+<li><a href="index.html" class="active">Home</a></li>
+</div>
+ 
+  <li><a href="about.php">About us</a></li> 
+  <li> <a href="gallery.html">Gallery</a></li>
+ 
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Downloads</a>
+    <div class="dropdown-content">
+      <a href="http://exam.unipune.ac.in/Pages/Syllabus.html">Syllabus</a>
+      <a href="http://exam.unipune.ac.in/Pages/PreviousQuestionPapers.html">Prev question papers</a>
+      <a href="http://collegecirculars.unipune.ac.in/sites/documents/Academic%20Calender/Forms/AllItems.aspx">Acadmic Calender</a>
+      <a href="http://exam.unipune.ac.in/Pages/SchedulesTimetables.html">Schedules&TimeTable</a>
+    </div>
+  </li>
+   <li><a href="contact.php">Contact Us</a></li>
+   <li><a href="result/index.html">Result</a></li>
+</ul>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin-top:30px;
+  margin-left:350px;
+}
+
+.p{
+color:red;
+  margin-top: 30px;
+  
+  margin-right: 450px;
+  margin-left: 350px;
+  }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="images/1.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="images/2.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="images/3.jpg" style="width:100%">
+ 
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="images/5.jpg" style="width:100%">
+ 
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+	  <span class="dot"></span> 
+</div>
+<div class="p" style="text-align:center">
+<p>The University of Vivek (known earlier as University of Saindane's) is one of the oldest and premier Universities in India. 
+				It was established in 1960, and it is one amongst the first three Universities in India. 
+				The University was accorded 5 star status in 2001 & 'A' grade status in April 2012 by the National Assessment and Accreditation Council (NAAC).</p>
+<p class="readmore"><a href="about.php">READ MORE</a></p>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+.dev
+ {
+ max-width:150px;
+  margin-top: -490px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 40px;
+}
+dev.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+<div class="dev">
+  <img src="images/dev.jpg" style="width:100%">
+  <div class="desc">DEVELOPERS</div>
+  <BR>
+  <div class="desc">VIVEK SAINDANE</div>
+  <div class="desc">SACHIN KUMAR</div>
+  
+</div>
+
+<style>
+
+.newspart{
+margin-top: -420px;
+		display:inline-block;
+	width:400px;
+	border-style:groove;
+	float:right;
+}
+
+.newspart h2{
+	color:green;
+	margin-left:5px;
+	margin-top:5px;
+	background-color:light blue;
+	
+}
+.newspart h4{
+	color:red;
+	margin-left:5px;
+
+}
+.newspart h1{
+	color:blue;
+	margin-left:5px;
+
+}
+
+.newspart .news{
+	width:auto;
+	height:auto;
+		
+}
+</style>
+
+
+	<div class="newspart">
+	<center><u><h2>Updates</h2></u></center>
+	<div class="news"></div>
+	<marquee  onmouseover="stop()" onmouseout="start()" direction="up" height="60%">
+		
+		<h1>RESULT 2019-20</h1></blink>
+		<a href=""><h4>B.Sc(FY,SY,TY) 2019-20</h4></a>
+		<a href=""><h4>B.Sc-Comp. Sc.(FY,SY,TY) 2019-20</h4></a>
+		<a href=""><h4>B.C.A(FY,SY,TY) 2019-20</h4></a>
+		</marquee>
+	</div>
+	
+	
+	
+	
+	<style>
+
+.newspart1{
+margin-top: -150px;
+		display:inline-block;
+	width:400px;
+	border-style:groove;
+	float:right;
+}
+
+.newspart1 h2{
+	color:green;
+	margin-left:5px;
+	margin-top:5px;
+	
+}
+.newspart1 h4{
+	color:red;
+	margin-left:5px;
+
+}
+
+.newspart1 .news1{
+	width:auto;
+	height:auto;
+		
+}
+</style>
+		<div class="newspart1">
+	<center><u><h2>Quick links</h2></u></center>
+	<div class="news1"></div>
+	<marquee  onmouseover="stop()" onmouseout="start()" direction="up" height="60%">
+		
+		<a href="http://www.unipune.ac.in/"><h4>Savitribai Phule Pune University</h4></a>
+		<a href="https://gesociety.in/ "><h4>Gokhale Education Society</h4></a>
+		<a href="https://cbccollege.in/"><h4>RNC Arts, JDB Commerce & NSC Science Colleges</h4></a>
+		</marquee>
+	</div>
+
+</body>
+</html>
+
